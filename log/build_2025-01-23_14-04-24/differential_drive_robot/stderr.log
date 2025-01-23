@@ -1,0 +1,7 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/luckii33/ocroboticsgrp/dev_ws/src/differential_drive_robot/build/differential_drive_robot/CMakeCache.txt is different than the directory /home/luckii33/ocroboticsgrp/training_ws/src/differential_drive_robot/build/differential_drive_robot where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[31mCMake Error at cmake_install.cmake:46 (include):
+  include could not find requested file:
+
+    /home/luckii33/ocroboticsgrp/training_ws/src/differential_drive_robot/build/differential_drive_robot/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake
+
+[0m
