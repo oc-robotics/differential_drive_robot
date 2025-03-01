@@ -1,1 +1,0 @@
-/home/luckii33/ocroboticsgrp/training_ws/src/differential_drive_robot/launch/rsp.launch.py
