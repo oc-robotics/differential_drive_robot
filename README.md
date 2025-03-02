@@ -1,7 +1,19 @@
-## Robot Package Template
+## Differential Drive Robot
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
-
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `my_bot` to whatever your project's name is.
-
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+Step 1: Clone the repository
+```
+cd dev_ws/src
+git clone git@github.com:oc-robotics/differential_drive_robot.git
+```
+Step 2: Build the package (make sure you are running the following commands within NoVNC)
+```
+colcon build --symlink-install
+```
+Step 3: Source the setup
+```
+source install/setup.bash
+```
+Step 4: Run the Gazebo simulation
+```
+ros2 launch differential_drive_robot launch_sim.launch.py
+```
