@@ -1,1 +1,0 @@
-/home/luckii33/ocroboticsgrp/training_ws/src/differential_drive_robot/build/differential_drive_robot/ament_cmake_core/differential_drive_robotConfig.cmake
