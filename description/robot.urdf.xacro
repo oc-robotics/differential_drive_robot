@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
 <xacro:include filename="inertial_macros.xacro" />
+<xacro:include filename="gazebo_control.xacro" />
 
     <material name="white">
         <color rgba="1 1 1 1" />
@@ -37,9 +38,13 @@
             <geometry>
                 <box size="0.3 0.3 0.15"/>
             </geometry>
-            <material name="black"></material>
+            <material name="white"></material>
         </visual>
    </link>
+
+   <gazebo reference="chassis">
+    <material>Gazebo/White</material>
+   </gazebo>
 
     <joint name="left_wheel_joint" type="continuous">
         <parent link="base_link" />
@@ -53,7 +58,7 @@
             <geometry>
                 <cylinder radius="0.04" length="0.05" />
             </geometry>
-            <material name="green" />
+            <material name="blue" />
         </visual>
         <collision>
             <geometry>
@@ -64,6 +69,10 @@
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
         </xacro:inertial_cylinder>
     </link>
+
+    <gazebo reference="left_wheel">
+        <material>Gazebo/Blue</material>
+   </gazebo>
 
     <joint name="right_wheel_joint" type="continuous">
         <parent link="base_link" />
@@ -77,7 +86,7 @@
             <geometry>
                 <cylinder radius="0.04" length="0.05" />
             </geometry>
-            <material name="green" />
+            <material name="blue" />
         </visual>
         <collision>
             <geometry>
@@ -88,6 +97,10 @@
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
         </xacro:inertial_cylinder>
     </link>
+
+    <gazebo reference="right_wheel">
+        <material>Gazebo/Blue</material>
+   </gazebo>
 
     <joint name="caster_wheel_joint" type="fixed">
         <parent link="chassis"/>
@@ -111,5 +124,9 @@
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_sphere>
     </link>
+
+    <gazebo reference="caster_wheel">
+        <material>Gazebo/Black</material>
+   </gazebo>
    
 </robot>
