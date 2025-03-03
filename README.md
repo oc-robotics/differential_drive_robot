@@ -17,3 +17,7 @@ Step 4: Run the Gazebo simulation
 ```
 ros2 launch differential_drive_robot launch_sim.launch.py
 ```
+Step 5: Driving the Robot (open a new tab of current terminal and run the following command line)
+``
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+``
