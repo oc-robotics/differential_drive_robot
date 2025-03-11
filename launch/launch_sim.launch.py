@@ -18,7 +18,11 @@ def generate_launch_description():
                 )]), launch_arguments={'use_sim_time': 'true'}.items()
     )
 
-    default_world = '/usr/share/gz/gz-sim7/worlds/empty.sdf'
+    default_world = os.path.join(
+	get_package_share_directory(package_name),
+	'worlds',
+	'empty.world'
+)
     world = LaunchConfiguration('world')
 
     world_arg = DeclareLaunchArgument(
