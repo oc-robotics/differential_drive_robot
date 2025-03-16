@@ -27,8 +27,8 @@ Step 6: Opening the obstacle world
 gz sim /ocr/dev_ws/src/differential_drive_robot/worlds/obstacle_world.sdf
 ```
 
-    If unable to find or download the file, run this command:
-    ```
-    export GZ_SIM_RESOURCE_PATH=/ocr/dev_ws/src/differential_drive_robot/worlds
-    ```
+Step 7: If unable to find or download the file, run this command:
+```
+ export GZ_SIM_RESOURCE_PATH=/ocr/dev_ws/src/differential_drive_robot/worlds
+ ```
 

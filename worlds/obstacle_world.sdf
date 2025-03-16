@@ -66,243 +66,225 @@
       <pose>0 0 0 0 0 0</pose>
       <self_collide>false</self_collide>
     </model>
+    
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/construction cone/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Construction Cone</uri>
       <name>Construction Cone</name>
       <pose>0.39590799999999998 1.6923699999999999 0 0 0 0</pose>
-    </include>
+      </include>
+
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120</name>
       <pose>-1.6983299999999999 4.3831899999999999 0 0 0 0.017946899999999998</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_0</name>
       <pose>-0.45568900000000001 4.4008500000000002 0 0 0 1.5698399999999999</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_1</name>
       <pose>-2.7170200000000002 4.39682 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_2</name>
       <pose>-1.6781200000000001 3.2382900000000001 0 0 0 -1.5953399999999998</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_3</name>
       <pose>-3.8772199999999999 4.3993099999999998 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_4</name>
       <pose>-1.71536 2.0724 0 0 0 -1.57111</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_5</name>
       <pose>-1.6211899999999999 2.3301799999999999 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_6</name>
       <pose>-2.74254 2.31291 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_7</name>
       <pose>-3.8574199999999998 2.3033899999999998 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_8</name>
       <pose>-5.0219300000000002 4.3986499999999999 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_9</name>
       <pose>-6.1603399999999997 4.4002999999999997 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_10</name>
       <pose>-0.36934600000000001 -1.0633999999999999 0 0 0 1.5498799999999999</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_11</name>
       <pose>-1.57576 -1.0500700000000001 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_12</name>
       <pose>-2.66561 0.062379799999999999 0 0 0 -1.55881</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_13</name>
       <pose>-2.7002100000000002 0.051607399999999998 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_14</name>
       <pose>-1.5561100000000001 -2.2122099999999998 0 0 0 -1.6053500000000001</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_15</name>
       <pose>-2.66723 -1.0958300000000001 0 0 0 -1.5554699999999997</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_16</name>
       <pose>-5.0099499999999999 2.25623 0 0 0 -1.5510600000000001</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_17</name>
       <pose>-5.0121399999999996 1.0784199999999999 0 0 0 -1.5762700000000001</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_18</name>
       <pose>-5.0069400000000002 -0.075574799999999998 0 0 0 -1.5739399999999999</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_19</name>
       <pose>-3.8264399999999998 -1.2477 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_20</name>
       <pose>-3.7297400000000001 -1.23746 -0.045450400000000002 -0.001008139999999999 -0.019515399999999999 -1.5711999999999999</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_21</name>
       <pose>-3.7417799999999999 -2.3947500000000002 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_22</name>
       <pose>-4.9842000000000004 -2.3822399999999999 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_23</name>
       <pose>-1.6110100000000001 -3.3984700000000001 0 0 0 -1.5645199999999999</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_24</name>
       <pose>-1.6075600000000001 -4.5799200000000004 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_25</name>
       <pose>-2.7765 -4.5852599999999999 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_26</name>
       <pose>-3.9448300000000001 -4.57097 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_27</name>
       <pose>-5.1335800000000003 -4.5620500000000002 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_28</name>
       <pose>-5.0135300000000003 -1.18594 0 0 0 1.58629</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_29</name>
       <pose>-6.21922 -0.0097297900000000003 0 0 0 -1.5713300000000001</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_30</name>
       <pose>-6.2164400000000004 1.1216900000000001 0 0 0 -1.55002</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_31</name>
       <pose>-4.9123700000000001 2.2947600000000001 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_32</name>
       <pose>-7.3242099999999999 4.4181600000000003 0 0 0 -1.5886199999999999</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_33</name>
       <pose>-7.3369 3.21427 0 0 0 -1.5779799999999999</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_34</name>
       <pose>-7.3383799999999999 2.0498699999999999 0 0 0 -1.573</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_35</name>
       <pose>-6.0354000000000001 -4.5547899999999997 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_36</name>
       <pose>-7.2822800000000001 -0.99183100000000002 0 0 0 -1.5574799999999998</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_37</name>
       <pose>-7.2652099999999997 -2.1609600000000002 0 0 0 -1.58321</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/nist maze wall 120/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/NIST maze wall 120</uri>
       <name>nist_maze_wall_120_38</name>
       <pose>-6.0640499999999999 -3.3422999999999998 0 0 0 1.5956699999999999</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/construction cone/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Construction Cone</uri>
       <name>Construction Cone_0</name>
       <pose>0.40020600000000001 -1.2690399999999999 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/small rock fall/4</uri>
-      <name>small_rock_fall</name>
-      <pose>-0.55164299999999999 0.094787700000000003 0 0 0 0</pose>
-    </include>
-    <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/small rock fall/4</uri>
-      <name>small_rock_fall_0</name>
-      <pose>-1.6192 1.44207 0 0 0 0</pose>
-    </include>
-    <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/medium rock fall/5</uri>
-      <name>medium_rock_fall</name>
-      <pose>-2.2442700000000002 1.5598799999999999 0 0 0 0</pose>
-    </include>
-    <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/large rock fall/4</uri>
-      <name>large_rock_fall</name>
-      <pose>-3.3678400000000002 1.15635 0 0 0 0</pose>
-    </include>
-    <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/construction cone/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Construction Cone</uri>
       <name>Construction Cone_1</name>
       <pose>-7.2775499999999997 -0.56605899999999998 0 0 0 0</pose>
     </include>
     <include>
-      <uri>file:///root/.gz/fuel/fuel.gazebosim.org/openrobotics/models/construction cone/3</uri>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Construction Cone</uri>
       <name>Construction Cone_2</name>
       <pose>-7.2580600000000004 1.7015 0 0 0 0</pose>
     </include>
