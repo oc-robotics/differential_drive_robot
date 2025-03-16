@@ -20,3 +20,15 @@ ros2 launch differential_drive_robot launch_sim.launch.py
 Step 5: Driving the Robot (open a new tab of current terminal and run the following command line)
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+
+Step 6: Opening the obstacle world
+```
+gz sim /ocr/dev_ws/src/differential_drive_robot/worlds/obstacle_world.sdf
+```
+
+    If unable to find or download the file, run this command:
+    ```
+    export GZ_SIM_RESOURCE_PATH=/ocr/dev_ws/src/differential_drive_robot/worlds
+    ```
+
