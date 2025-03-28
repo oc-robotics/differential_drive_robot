@@ -38,12 +38,12 @@
             <geometry>
                 <box size="0.3 0.3 0.15"/>
             </geometry>
-            <material name="white"></material>
+            <material name="black"></material>
         </visual>
    </link>
 
    <gazebo reference="chassis">
-    <material>Gazebo/White</material>
+    <material>Gazebo/Black</material>
    </gazebo>
 
     <joint name="left_wheel_joint" type="continuous">
@@ -58,7 +58,7 @@
             <geometry>
                 <cylinder radius="0.04" length="0.05" />
             </geometry>
-            <material name="blue" />
+            <material name="green" />
         </visual>
         <collision>
             <geometry>
@@ -71,7 +71,7 @@
     </link>
 
     <gazebo reference="left_wheel">
-        <material>Gazebo/Blue</material>
+        <material>Gazebo/Green</material>
    </gazebo>
 
     <joint name="right_wheel_joint" type="continuous">
@@ -86,7 +86,7 @@
             <geometry>
                 <cylinder radius="0.04" length="0.05" />
             </geometry>
-            <material name="blue" />
+            <material name="green" />
         </visual>
         <collision>
             <geometry>
@@ -99,7 +99,7 @@
     </link>
 
     <gazebo reference="right_wheel">
-        <material>Gazebo/Blue</material>
+        <material>Gazebo/Green</material>
    </gazebo>
 
     <joint name="caster_wheel_joint" type="fixed">
@@ -113,7 +113,7 @@
             <geometry>
                 <sphere radius="0.05"/>
             </geometry>
-            <material name="black"/>
+            <material name="white"/>
         </visual>
         <collision>
             <geometry>
@@ -126,7 +126,7 @@
     </link>
 
     <gazebo reference="caster_wheel">
-        <material>Gazebo/Black</material>
+        <material>Gazebo/White</material>
    </gazebo>
    
 </robot>
