@@ -21,8 +21,8 @@ def generate_launch_description():
     default_world = os.path.join(
 	get_package_share_directory(package_name),
 	'worlds',
-	# 'obstacle_world.sdf'
-    'empty.world'
+    # 'empty.world'
+	'obstacle_world.sdf'
     )
 
     world = LaunchConfiguration('world')
