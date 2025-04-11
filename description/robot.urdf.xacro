@@ -3,6 +3,7 @@
 <xacro:include filename="inertial_macros.xacro" />
 <xacro:include filename="gazebo_control.xacro" />
 <xacro:include filename="camera.xacro" />
+<xacro:include filename="lidar.xacro" />
 
     <material name="white">
         <color rgba="1 1 1 1" />
@@ -24,6 +25,10 @@
         <color rgba="0 0.3 0 1" />
     </material>
 
+    <material name="red">
+        <color rgba="1 0 0 1" />
+    </material>
+
     <!-- Example link -->
     <link name="base_link"></link>
 
@@ -39,7 +44,7 @@
             <geometry>
                 <box size="0.3 0.3 0.15"/>
             </geometry>
-            <material name="black"></material>
+            <material name="white"></material>
         </visual>
    </link>
 
