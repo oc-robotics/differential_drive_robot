@@ -40,7 +40,7 @@
             <pose relative_to="lidar_frame"> 0 0 0 0 0 0 </pose>
             <visualize>true</visualize>
             <update_rate>10</update_rate>
-            <ray>
+            <lidar>
                 <scan>
                     <horizontal>
                         <samples>360</samples>
@@ -52,7 +52,7 @@
                     <min>0.3</min>
                     <max>12</max>
                 </range>
-            </ray>
+            </lidar>
             <topic>lidar</topic>
             <gz_frame_id>laser_frame</gz_frame_id>
         </sensor>

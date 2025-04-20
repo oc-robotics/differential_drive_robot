@@ -52,7 +52,7 @@ Camera Usage:
 Opening up Rviz to show camera footage (open a new tab of current terminal and run the following command line)
 
 ```
-rviz2
+ rviz2 -d src/differential_drive_robot/config/diff-drive.rviz
 ```
 
 **1.** Once opened Rviz, select `camera_link_optical` under `Displays -> Global Options -> Fixed Frame`
