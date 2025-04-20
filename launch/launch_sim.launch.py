@@ -15,13 +15,13 @@ def generate_launch_description():
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory(package_name),'launch','rsp.launch.py'
-                )]), launch_arguments={'use_sim_time': 'true'}.items()
+                )]), launch_arguments={'use_sim_time': 'true', 'use_ros_control': 'true'}.items()
     )
 
     default_world = os.path.join(
-	get_package_share_directory(package_name),
-	'worlds',
-	'obstacle_world.sdf'
+        get_package_share_directory(package_name),
+        'worlds',
+        'obstacle_world.sdf'
     )
 
     world = LaunchConfiguration('world')
@@ -37,7 +37,7 @@ def generate_launch_description():
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory('ros_gz_sim'), 'launch', 'gz_sim.launch.py')]),
                     launch_arguments={'gz_args': ['-r -v4 ', world], 'on_exit_shutdown': 'true'}.items()
-             )
+            )
 
     # Run the spawner node from the ros_gz_sim package
     spawn_entity = Node(package='ros_gz_sim', executable='create',
@@ -47,13 +47,15 @@ def generate_launch_description():
                         output='screen')
 
     # Bridge for cmd_vel and other topics
-    bridge = Node(
+    bridge_params = os.path.join(get_package_share_directory(package_name), 'config', 'gz_bridge.yaml')
+    ros_gz_bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
-        parameters=[{
-            'config_file': os.path.join(get_package_share_directory(package_name), 'config', 'bridge.yaml'),
-        }],
-        output='screen'
+        arguments=[
+            '--ros-args',
+            '-p',
+            f'config_file:={bridge_params}',
+        ]
     )
 
     ros_gz_image_bridge = Node(
@@ -68,6 +70,6 @@ def generate_launch_description():
         world_arg,
         gazebo,
         spawn_entity,
-        bridge,
+        ros_gz_bridge,
         ros_gz_image_bridge
     ])
