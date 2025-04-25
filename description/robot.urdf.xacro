@@ -3,6 +3,7 @@
 <xacro:include filename="inertial_macros.xacro" />
 <xacro:include filename="gazebo_control.xacro" />
 <xacro:include filename="camera.xacro" />
+<xacro:include filename="lidar.xacro" />
 
     <material name="white">
         <color rgba="1 1 1 1" />
@@ -22,6 +23,10 @@
 
     <material name="green">
         <color rgba="0 0.3 0 1" />
+    </material>
+
+    <material name="red">
+        <color rgba="1 0 0 1" />
     </material>
 
     <!-- Example link -->
@@ -47,13 +52,6 @@
     <material>Gazebo/Black</material>
    </gazebo>
 
-    <joint name="left_wheel_joint" type="continuous">
-        <parent link="base_link" />
-        <child link="left_wheel" />
-        <origin xyz="0.0 0.175 0.0" rpy="-${pi/2} 0.0 0.0" />
-        <axis xyz="0.0 0.0 1.0" />
-    </joint>
-
     <link name="left_wheel">
         <visual>
             <geometry>
@@ -71,16 +69,16 @@
         </xacro:inertial_cylinder>
     </link>
 
+    <joint name="left_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="left_wheel" />
+        <origin xyz="0.0 0.175 0.0" rpy="-${pi/2} 0.0 0.0" />
+        <axis xyz="0.0 0.0 1.0" />
+    </joint>
+
     <gazebo reference="left_wheel">
         <material>Gazebo/Green</material>
    </gazebo>
-
-    <joint name="right_wheel_joint" type="continuous">
-        <parent link="base_link" />
-        <child link="right_wheel" />
-        <origin xyz="0.0 -0.175 0.0" rpy="${pi/2} 0.0 0.0" />
-        <axis xyz="0.0 0.0 1.0" />
-    </joint>
 
     <link name="right_wheel">
         <visual>
@@ -98,6 +96,13 @@
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
         </xacro:inertial_cylinder>
     </link>
+
+    <joint name="right_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="right_wheel" />
+        <origin xyz="0.0 -0.175 0.0" rpy="${pi/2} 0.0 0.0" />
+        <axis xyz="0.0 0.0 1.0" />
+    </joint>
 
     <gazebo reference="right_wheel">
         <material>Gazebo/Green</material>
