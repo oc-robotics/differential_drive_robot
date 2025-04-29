@@ -31,6 +31,12 @@ Step 5: Driving the Robot (open a new tab of current terminal and run the follow
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
+> Note: If using `ros2_control` plugin, /cmd_vel must be remapped as follows:
+
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+```
+
 ---
 
 > Note: Opening the obstacle world
