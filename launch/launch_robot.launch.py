@@ -52,7 +52,7 @@ def generate_launch_description():
     robot_description = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])
 
     controller_params = os.path.join(
-        get_package_share_directory('differential_drive_robot'), # <-- Replace with your package name
+        get_package_share_directory(package_name), # <-- Replace with your package name
         'config',
         'my_controllers.yaml'
         )
@@ -67,18 +67,7 @@ def generate_launch_description():
     
     delayed_controller_manager = TimerAction(period=3.0, actions=[controller_manager])
 
-    joint_broad_spawner = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["joint_broad"],
-    )
 
-    delayed_joint_broad_spawner = RegisterEventHandler(
-            event_handler=OnProcessStart(
-                target_action=controller_manager,
-                on_start=[joint_broad_spawner],
-            )
-        )
 
     diff_drive_spawner = Node(
         package="controller_manager",
@@ -92,6 +81,20 @@ def generate_launch_description():
                 on_start=[diff_drive_spawner],
             )
         )
+        
+    joint_broad_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_broad"],
+    )
+
+    delayed_joint_broad_spawner = RegisterEventHandler(
+            event_handler=OnProcessStart(
+                target_action=controller_manager,
+                on_start=[joint_broad_spawner],
+            )
+        )
+
 
 
     # # Bridge for cmd_vel and other topics
